@@ -1,3 +1,4 @@
+import 'package:Upshine/screens/music_list.dart';
 import 'package:flutter/material.dart';
 import 'package:Upshine/screens/player.dart';
 import 'screens/home_page.dart';
@@ -22,7 +23,8 @@ class fullappview extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         routes: {
           "/home": (context) => const homeui(),
-          "/player": (context) => const playerui()
+          "/player": (context) => const playerui(),
+          "/music_list": (context) => const music_list()
         },
         builder: (context, widget) {
           ScreenUtil.setContext(context);

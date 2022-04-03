@@ -11,7 +11,7 @@ class topbar_center_text extends StatelessWidget {
     return Text(
       givenText,
       style: TextStyle(
-          fontSize: 24.0,
+          fontSize: 22.0,
           fontFamily: "Varela",
           color: Color.fromARGB(255, 129, 126, 126),
           fontWeight: FontWeight.w700),

@@ -39,9 +39,9 @@ class _search_barState extends State<search_bar> {
               padding: EdgeInsets.fromLTRB(0.0, 0.0, 25.0, 0.0),
             ),
           ]),
-          elevation: 2,
-          shape:
-              RoundedRectangleBorder(borderRadius: BorderRadius.circular(8.0))),
+          elevation: 1,
+          shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(18.0))),
       height: 75.h,
     );
   }

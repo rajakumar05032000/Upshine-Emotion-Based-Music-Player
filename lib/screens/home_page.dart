@@ -24,7 +24,9 @@ class topbar extends StatelessWidget {
             ),
             topbar_center_text("Discover"),
             IconButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.pushNamed(context, "/music_list");
+              },
               icon: Icon(Icons.list),
               iconSize: 32.0,
               color: Color.fromARGB(255, 136, 128, 128),
@@ -131,7 +133,7 @@ class _h1State extends State<h1> {
               below_image(),
               song_list_view(
                   "https://media.istockphoto.com/photos/man-hiker-on-top-of-a-mountain-peak-picture-id1301431065?b=1&k=20&m=1301431065&s=170667a&w=0&h=Zyp_a5-NeApgUbbAwZEV109diqNDD8eTwgK2VDlXjmY=",
-                  "Fealess",
+                  "Fearless",
                   "Lost Sky"),
               song_list_view(
                   "https://i.scdn.co/image/ab67616d0000b2739e495fb707973f3390850eea",
